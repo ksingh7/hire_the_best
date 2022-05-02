@@ -7,9 +7,12 @@ This is a repository contains instructions for technical evaluation.
 ## Part-1 (OpenShift) (Mandatory)
 ### Tasks
 - Connect / Login to OpenShift using `oc` CLI on your local machine
-- Create a new OpenShift Project with same name as your `First Name`
-- Use the provided sample application `yaml` files and deploy the app in your OpenShift project
+- Use the provided sample application `yaml` files and deploy the app on OpenShift Sandbox
 - Make sure you are able to access the application from your local browser
+
+### Verification
+- Upon accessing the application in your local browser, you should see the following:
+![](https://raw.githubusercontent.com/ksingh7/hire_the_best/master/nginx.png)
 
 ## Part-2 (Containers) (Mandatory)
 ### Tasks
@@ -17,10 +20,16 @@ This is a repository contains instructions for technical evaluation.
 - Build the container image and push it to any public registry
 - Run the container image from public registry (hint : `docker run`)
   
+### Verification
+- List the container image locally
+- Run the container image locally
 
 ## Part-3 (Ansible) (Bonus Points)
 ### Tasks
-- Create a new OpenShift project called `ansible-is-great`
-- Create a ansible playbook to deploy the provided `yaml` files to OpenShift environment under the project `ansible-is-great`
-- Run the ansible playbook
+- Create an Ansible playbook to deploy the provided `yaml` files to OpenShift environment
+- Run the Ansible playbook
 - Make sure you are able to access the application from your local browser
+
+### Verification
+- Run the Ansible playbook to deploy the App
+- Upon accessing the application in your local browser, you should see the following:
