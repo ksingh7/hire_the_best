@@ -12,7 +12,7 @@ This is a repository contains instructions for technical evaluation.
 
 ### Verification
 - Upon accessing the application in your local browser, you should see the following:
-![](https://raw.githubusercontent.com/ksingh7/hire_the_best/master/nginx.png)
+![](https://raw.githubusercontent.com/ksingh7/hire_the_best/main/nginx.png)
 
 ## Part-2 (Containers) (Mandatory)
 ### Tasks
@@ -33,3 +33,4 @@ This is a repository contains instructions for technical evaluation.
 ### Verification
 - Run the Ansible playbook to deploy the App
 - Upon accessing the application in your local browser, you should see the following:
+![](https://raw.githubusercontent.com/ksingh7/hire_the_best/main/nginx.png)
