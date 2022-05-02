@@ -22,7 +22,18 @@ This is a repository contains instructions for technical evaluation.
   
 ### Verification
 - List the container image locally
+```
+$ docker images
+REPOSITORY                 TAG                IMAGE ID       CREATED         SIZE
+hello                      latest             18bc1b3b2db6   3 weeks ago     5.57MB
+karansingh/hello           latest             18bc1b3b2db6   3 weeks ago     5.57MB
+```
 - Run the container image locally
+```
+$ docker run hello
+Hello World
+$
+```
 
 ## Part-3 (Ansible) (Bonus Points)
 ### Tasks
